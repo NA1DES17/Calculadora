@@ -1,0 +1,49 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: hsl(217, 54%, 11%);
+	width: 100vw;
+	height: 100vh;
+}
+.calculadora {
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #c4c6c8;
+	width: 300px;
+	height: 500px;
+	border-radius: 25px;
+	border: solid red;
+}
+.calculadora td button {
+	display: block;
+	width: 60px;
+	height: 60px;
+	font-size: 25px;
+	background-color: #171717;
+	color: #f6f6f6;
+	border-radius: 50%;
+}
+
+#resta,
+#suma,
+#multiplicacion,
+#division,
+#igual {
+	background-color: #ff9601;
+	border: solid #ff9601;
+}
+
+#resultado {
+	display: block;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 50px;
+	width: 245px;
+	height: 100px;
+	line-height: 100px;
+	background-color: #cfd0e6;
+	/* overflow-x: scroll; */
+	/* border: solid black; */
+}
